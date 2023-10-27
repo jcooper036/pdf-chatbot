@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pdf-chatbot"
+version = "0.1.0"
+description = "\u0016"
+authors = ["Jacob Cooper"]
+readme = "README.md"
+packages = [{include = "pdf_chatbot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.28.0"
+pypdf2 = "^3.0.1"
+langchain = "^0.0.324"
+python-dotenv = "^1.0.0"
+faiss-cpu = "^1.7.4"
+openai = "^0.28.1"
+huggingface-hub = "^0.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
